@@ -1,0 +1,23 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "A node api example project",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app.js"
+  },
+  "keywords": [
+    "node",
+    "api"
+  ],
+  "author": "aki",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dialogflow": "^0.14.1",
+    "express": "^4.17.1",
+    "morgan": "^1.9.1",
+    "uuid": "^3.3.3"
+  }
+}
