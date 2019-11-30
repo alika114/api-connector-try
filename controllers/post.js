@@ -26,7 +26,7 @@ exports.createPost = async(req,res)=>{
 	
     // Create a new session
     const sessionClient = new dialogflow.SessionsClient({
-        keyFilename: path.resolve('D:/node-api/cer/akilaorbita-esyxgg-8a005abaf79c.json')
+        keyFilename: path.resolve('add json file regards the dialogue flow contents ')
     });
     
     const sessionPath = sessionClient.sessionPath(projectID, SESSIONID);
